@@ -73,7 +73,7 @@ pip install numpy pandas scikit-learn librosa matplotlib sounddevice joblib pyar
 
 	 accuracy                           0.85       300
 	macro avg       0.86      0.85      0.85       300
-weighted avg       0.86      0.85      0.85       300
+ weighted avg       0.86      0.85      0.85       300
 ```
 
 ---
