@@ -15,13 +15,14 @@ This repository provides a modular Python system for classifying spoken digits (
 - Format: Parquet, 8kHz, digits 0–9, multiple speakers
 - Download: `git clone https://huggingface.co/datasets/mteb/free-spoken-digit-dataset`
 
+
 ## Requirements
 - Python 3.9+
-- numpy, pandas, scikit-learn, librosa, matplotlib, sounddevice, joblib, pyarrow, soundfile, keyboard
+- See `requirements.txt` for all required Python packages.
 
 ## Installation
 ```bash
-pip install numpy pandas scikit-learn librosa matplotlib sounddevice joblib pyarrow soundfile keyboard
+pip install -r requirements.txt
 ```
 
 ## Usage
