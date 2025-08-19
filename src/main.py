@@ -34,3 +34,7 @@ if __name__ == "__main__":
     acc, cm = evaluate_model(clf, X_test, y_test)
     print(f"Accuracy: {acc:.4f}")
     plot_confusion_matrix(cm, classes=[str(i) for i in range(10)])
+
+    from sklearn.metrics import classification_report
+    print("\nClassification Report:\n")
+    print(classification_report(y_test, clf.predict(X_test)))
