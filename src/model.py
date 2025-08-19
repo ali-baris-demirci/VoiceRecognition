@@ -2,9 +2,11 @@
 model.py
 Defines and trains a lightweight classifier for spoken digit recognition.
 """
+
 import numpy as np
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import SVC
+from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import StandardScaler
 import joblib
 
@@ -14,6 +16,8 @@ class DigitClassifier:
             self.model = LogisticRegression(max_iter=200)
         elif model_type == 'svm':
             self.model = SVC(kernel='linear', probability=True)
+        elif model_type == 'rf':
+            self.model = RandomForestClassifier(n_estimators=100, random_state=42)
         else:
             raise ValueError('Unsupported model type')
         self.scaler = StandardScaler()
