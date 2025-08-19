@@ -93,24 +93,3 @@ weighted avg       0.94      0.93      0.93       300
 ---
 **License:**
 This work is licensed under a [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
-				  precision    recall  f1-score   support
-
-			  0       0.80      0.80      0.80        30
-			  1       0.89      0.80      0.84        30
-			  2       0.86      0.80      0.83        30
-			  3       0.71      0.80      0.75        30
-			  4       0.97      0.93      0.95        30
-			  5       0.93      0.93      0.93        30
-			  6       0.81      0.83      0.82        30
-			  7       0.88      0.97      0.92        30
-			  8       0.96      0.87      0.91        30
-			  9       0.77      0.80      0.79        30
-
-	 accuracy                           0.85       300
-	macro avg       0.86      0.85      0.85       300
- weighted avg       0.86      0.85      0.85       300
-```
-
----
-**License:**
-This work is licensed under a [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
